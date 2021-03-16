@@ -1,13 +1,13 @@
 # add $1.5 when there is overtime hours (40+)
 
-hrs = input("Enter Hours:")
+hrs = input()
 h = float(hrs)
-rate = 10.50
-rateOP= 1.5
+rate = float(input())
+
 
 if h <= 40: 
     print (h * rate)
 else: 
     oT = h - 40
-    otR = (rate *40) + (rateOP * rate * oT)
+    otR = (rate *40) + (1.5 * rate * oT)
     print (otR)
