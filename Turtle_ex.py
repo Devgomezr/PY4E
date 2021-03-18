@@ -1,4 +1,5 @@
 import turtle
+import time
 
 kedi = turtle.Turtle()
 kedi.color('orange')
@@ -91,3 +92,5 @@ kedi.forward(100)
 kedi.right(120)
 kedi.forward(75)
 kedi.ht()
+
+time.sleep(5)
